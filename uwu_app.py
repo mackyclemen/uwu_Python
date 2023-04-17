@@ -77,8 +77,8 @@ output_label.pack(side="bottom", fill="x", ipadx=10, ipady=10, padx=10)
 
 """ Body - Output - Label output """
 # Shows uwu translation of text entry in input box
-output_box = Label(output_frame, bd=0, bg=box_bg, height=200, textvariable=user_input, font="Consolas 12", anchor="nw",
-                   borderwidth=20, relief="flat")
+output_box = Label(output_frame, bd=0, bg=box_bg, width=10, height=200, textvariable=user_input, font="Consolas 12", anchor="nw",
+                   borderwidth=20, relief="flat", wraplength = 16)
 output_box.pack(side="top", fill="both", padx=10)
 
 window.bind("<Key>", convert_input_to_uwu)

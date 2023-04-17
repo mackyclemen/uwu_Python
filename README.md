@@ -1,5 +1,5 @@
 # uwu_Python
-A Python project for converting text to uwu format.
+A Python project (forked originally from @Ayumu098 but is now non-existent) for converting text to uwu format.
 
 This was made to make suwe the wowwd buwns with mowe cuteness! uwu
 
