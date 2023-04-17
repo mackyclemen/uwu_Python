@@ -14,3 +14,27 @@ Fast and simple access to UwU-ness.
 Next update: Add executable option for more ways to uwu!
 
 (Kidding aside, this project was a good excuse to review on python string and tkinter.)
+
+---
+
+Hey, @mackyclemen here. This repo originally has a virtual environment initialized in here.
+
+Make sure to set them up by initializing a virtual environment...
+
+```bash
+python -m venv .env
+```
+
+...subsequently activating the venv...
+
+
+```bash
+.\.venv\scripts\activate
+```
+
+...and installing requirements.
+
+```bash
+python -m pip install -r requirements.txt
+```
+
